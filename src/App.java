@@ -13,6 +13,7 @@ public class App {
         FlappyBird game = new FlappyBird();
         frame.add(game);
         frame.pack();
+        frame.requestFocus();
         frame.setVisible(true);
     }
 }
